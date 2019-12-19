@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #589E2F;
+}
+
+body main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+}
+
+body main div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 90%;
+}
+
+body main div img {
+    width: 20vw;
+    margin-bottom: 8px;
+}
+
+@media (max-width: 1500px){
+    body main div img {
+        width: 25vw;
+    }
+}
+
+@media (max-width: 1280px){
+    body main div img {
+        width: 30vw;
+    }
+}
+
+@media (max-width: 1024px){
+    body main div img {
+        width: 35vw;
+    }
+}
+
+@media (max-width: 768px){
+    body main div img {
+        width: 40vw;
+    }
+}
+
+@media (max-width: 500px){
+    body main div img {
+        width: 66vw;
+    }
+}
+
+body main div p {
+    /* width: 48vw; */
+    /* font-family: 'Arial', 'Helvetica', sans-serif; */
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
